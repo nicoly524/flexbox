@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.fonte{
+    font-size: 23px;
+    font-family: "Poppins" , sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: #5078ff;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 800;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;   
+}
+
+ul a{
+    text-decoration: none;
+    color: #5078ff;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}  
+
+ul a:hover {
+    border-bottom: 2px solid #5078ff;
+}
+
+.testeimagem{
+    background-image: url(../imgs/newhanoi.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    }
+
+    .bloquinho{
+        
+        color: #ffffff;
+        font-family: "Roboto" , sans-serif;
+        width: 800px;
+        border-radius: 10px;
+        border: 1px solid #ffffff;
+        text-align: center;
+        padding: 30px;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Poppins" , sans-serif;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.3s ease;
+    }  
+
+    a:hover {
+        border-bottom: 2px solid #ffffff;
+    }
+
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 68px; 
+}
+
+.otrosblocos{
+    margin: 2px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    color: #0171f1;
+    border-radius: 50px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.testecorzinhag{
+    background-color: #0171f1;
+    height: 2px;
+}
+
+.centrinho{
+    text-align: center;
+    background-color: #0171f1;
+    margin-top: 100px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Poppins" , sans-serif;
+    color: #ffffff;
+    
+}
+
+label{
+    display: block;
+}
+
+.containerdoforms{
+    border: 2px solid #0171f1;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0171f1;
+    font-family: "Poppins" , sans-serif;
+    height: 300px;
+    
+}
+.textodoformskk{
+    flex: 1;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.forms{
+    flex: 1;
+    border-radius: 10px;
+    color: #0171f1;
+}
+input{
+    border: 0.1px solid #0171f1;
+    border-radius: 10px;
+    width: 300px;
+    padding: 6px;
+    transition: border-color 0.1s ease
+}
+ 
+input:focus{
+    border: 2px solid #0171f1;
+    outline: none;
+}
+.separacao{
+    height: 100px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    background-color: #0171f1;
+    color: #ffffff;
+    padding: 8px;
+    width: 90px;
+}
+
+.ficanomei{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0171f1;
+    color: #ffffff;
+}
+
+.semtempo{
+    height: 63px;
+}
